@@ -5,6 +5,7 @@ def test_simple_decorator():
     """A simple test of the auditor decorator."""
     _user_function_to_test("hello")
     # TODO: assert something meaningful
+    assert 1 == 1
 
 
 @simple_decorator

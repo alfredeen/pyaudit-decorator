@@ -1,4 +1,5 @@
 import sys
+
 from auditor import simple_decorator
 
 

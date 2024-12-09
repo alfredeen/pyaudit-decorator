@@ -16,7 +16,7 @@ def audit_decorator(func, context=None):
         if context:
             classname = context["classname"]
 
-        logmsg = f"test {classname} {func}"
+        logmsg = f"test {classname}"
 
         # TODO: add logging
         print(logmsg)
